@@ -1,0 +1,51 @@
+# On ne suit que les éléments du projet public/traité
+*
+
+# Fichiers racine à garder
+!README.md
+!README*.md
+!LICENSE
+!CITATION.cff
+!requirements.txt
+
+# Dossiers à garder
+!docs/
+!docs/**
+!notebooks/
+!notebooks/**
+!results/
+!results/**
+!src/
+!src/**
+!paper/refit_project/src/
+!paper/refit_project/src/**
+!paper/refit_project/README.md
+
+# Dossiers à exclure du dépôt
+/data/
+/data/**
+/paper/
+/paper/**
+/environment/
+/environment/**
+
+# Fichiers lourds / temporaires / dérivés
+*.csv
+*.xlsx
+*.html
+*.pdf
+*.zip
+*.tar.gz
+*.log
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.env/
+.envrc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Projet Explicable-electricity-clustering/data/raw/
